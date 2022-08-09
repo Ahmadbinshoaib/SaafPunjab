@@ -3,17 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable-mdpi/emp_custom_linearleft.xml" value="0.136" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable-mdpi/emp_custom_linearright.xml" value="0.136" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable-mdpi/emp_custominner_linearright.xml" value="0.136" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable-v24/leftbottom_linear.xml" value="0.1705" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable-v24/rightbottom_linear.xml" value="0.1705" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/bottom_linear.xml" value="0.1705" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/custom_mainlinear.xml" value="0.1785" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/custom_spinner.xml" value="0.186" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/division_dropdown_linear.xml" value="0.187" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/item_select.xml" value="0.1785" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/left_customlinear.xml" value="0.1705" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/navigation_corners.xml" value="0.1785" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/right_linear.xml" value="0.1705" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/up_leftlinear.xml" value="0.1705" />
-        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_empregistration.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/bio.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_blank.xml" value="0.1796875" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_self.xml" value="0.11145833333333334" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_worker.xml" value="0.1597222222222222" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/item_list.xml" value="0.14743589743589744" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/main_toolbar.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/navigation_drawer.xml" value="0.14666666666666667" />

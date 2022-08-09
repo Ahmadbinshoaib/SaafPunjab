@@ -1,37 +1,39 @@
 package com.example.saafpunjab;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ImageView;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class EMPRegistration extends AppCompatActivity {
     DrawerLayout drawerLayout;
-    ImageView imageView, empReg;
+    ImageView imageView;
     RecyclerView recyclerView;
     ArrayList<MenuStructure> contacts= new ArrayList<>();
+
+    TabLayout tabLayout;
+    ViewPager2 viewPager;
+    FragmentAdapter fragmentAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_empregistration);
 
         drawerLayout= findViewById(R.id.drawer_layout);
         imageView= findViewById(R.id.btnmenu);
+
         recyclerView= findViewById(R.id.recycler_view);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -39,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         contacts.add(new MenuStructure("Bilal Ahmad", "354778c8", "Arfa Kareem", "Morning"));
         MenuRecyclerAdapter adapter = new MenuRecyclerAdapter(this, contacts);
         recyclerView.setAdapter(adapter);
-
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,22 +49,47 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        empReg= findViewById(R.id.empReg);
-        empReg.setOnClickListener(new View.OnClickListener() {
+
+        //Tab Layout
+        tabLayout= findViewById(R.id.tabLayout);
+        viewPager = findViewById(R.id.viewPager);
+
+        tabLayout.addTab(tabLayout.newTab().setText("SELF"));
+        tabLayout.addTab(tabLayout.newTab().setText("WORKER"));
+
+        FragmentManager fragmentManager= getSupportFragmentManager();
+        fragmentAdapter = new FragmentAdapter(fragmentManager, getLifecycle());
+        viewPager.setAdapter(fragmentAdapter);
+
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(MainActivity.this, EMPRegistration.class);
-                startActivity(intent);
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
             }
         });
 
-
+        viewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                tabLayout.selectTab(tabLayout.getTabAt(position));
+            }
+        });
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        MainActivity.closeDrawer(drawerLayout);
+        EMPRegistration.closeDrawer(drawerLayout);
     }
 
     private static void closeDrawer(DrawerLayout drawerLayout) {
