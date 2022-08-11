@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    tools:context=".applyLeaveWorker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+
+        android:background="#f8f8f8"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Select Worker"
+        android:textColor="#555555"
+        android:textSize="12sp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/division_dropdown_linear"
+        >
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:elevation="2dp"
+
+            android:background="@drawable/custom_spinner"
+            >
+
+        </Spinner>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="No of Days"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:elevation="2dp"
+
+                android:background="@drawable/custom_spinner"
+                >
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="From Date"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:elevation="2dp"
+
+                android:background="@drawable/custom_spinner"
+                >
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="To Date"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:elevation="2dp"
+
+                android:background="@drawable/custom_spinner"
+                >
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Remarks"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:id="@+id/dateTIL"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                app:boxStrokeColor="#52f260"
+                app:hintTextColor= "#52f260"
+                app:boxBackgroundColor="@color/white"
+
+                >
+                <EditText
+                    android:id="@+id/dateFormat"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:gravity="top"
+                    android:hint="Write Here"
+                    android:minLines="5"
+                    android:maxLines="5"
+                    android:textSize="12dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+
+        <CheckBox android:id="@+id/checkbox_meat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Recommended"
+            android:textColor="#555555"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-medium"
+            android:onClick="onCheckboxClicked"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#f39c11"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:minHeight="45dp"
+            android:minWidth="120dp"
+            android:layout_marginRight="5dp"
+            android:text="Add Attachment"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="10sp">
+        </Button>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dfdfdf"
+            >
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#109d59"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="45dp"
+                android:minWidth="120dp"
+                android:layout_marginRight="5dp"
+                android:text="Leave Quota"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:textSize="10sp">
+            </Button>
+            <Button
+                android:id="@+id/applyLeave"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#2f80eb"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="45dp"
+                android:minWidth="120dp"
+                android:textAllCaps="false"
+                android:text="Apply leave"
+                android:textColor="@color/white"
+                android:textSize="10sp">
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

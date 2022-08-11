@@ -17,13 +17,25 @@
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/navigation_corners.xml" value="0.1785" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/right_linear.xml" value="0.1705" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/drawable/up_leftlinear.xml" value="0.1705" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_apply_leave.xml" value="0.1597222222222222" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_empregistration.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_leave_form.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_leave_report.xml" value="0.1597222222222222" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/activity_mark_attendence.xml" value="0.1" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/bio.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_apply_leave_self.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_apply_leave_worker.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_blank.xml" value="0.1796875" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_leave_form_self.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_leave_form_worker.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_leave_report_worker.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_mark_attendence_self.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_mark_attendence_worker.xml" value="0.1513157894736842" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_self.xml" value="0.11145833333333334" />
-        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_worker.xml" value="0.1597222222222222" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/fragment_worker.xml" value="0.22" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/item_list.xml" value="0.14743589743589744" />
+        <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/leave_row.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/main_toolbar.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/layout/navigation_drawer.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/HP/Documents/GitHub/SaafPunjab/SaafPunjab/app/src/main/res/menu/item_menu.xml" value="0.1796875" />
