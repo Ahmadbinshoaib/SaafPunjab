@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8f8f8"
+    tools:context=".worker">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8"
+        >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#dcdcdc"
+        >
+
+    </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Select Container"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:elevation="2dp"
+
+                android:background="@drawable/custom_spinner"
+                >
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="4dp"
+            app:strokeWidth="1.2dp"
+            app:strokeColor="#d9d5d4"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2f80eb"
+                android:fontFamily="sans-serif-medium"
+                android:text="EXISTING CONTAINER INFORMATION"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2f80eb"
+                android:fontFamily="sans-serif-light"
+                android:text="Capacity: "
+                android:textColor="@color/black"
+                android:textSize="13sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#2f80eb"
+                android:fontFamily="sans-serif-light"
+                android:text="5 cm"
+                android:textColor="@color/black"
+                android:textSize="13sp">
+            </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Current Location: "
+                    android:textColor="@color/black"
+                    android:textSize="13sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Arfa Tower"
+                    android:textColor="@color/black"
+                    android:textSize="13sp">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Latitude: "
+                    android:textColor="@color/black"
+                    android:textSize="13sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-light"
+                    android:text="75.321"
+                    android:textColor="@color/black"
+                    android:textSize="13sp">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Longitude: "
+                    android:textColor="@color/black"
+                    android:textSize="13sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-light"
+                    android:text="34.681"
+                    android:textColor="@color/black"
+                    android:textSize="13sp">
+                </TextView>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#119957"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#119957"
+                android:orientation="vertical"
+
+                >
+                <Button
+                    android:layout_width="125dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#2f80eb"
+                    android:fontFamily="sans-serif-medium"
+                    android:minHeight="45dp"
+                    android:minWidth="120dp"
+                    android:text="Take Location"
+                    android:textColor="@color/white"
+                    android:textSize="10sp">
+
+                </Button>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#2f80eb"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="New Latitude: "
+                        android:textColor="@color/white"
+                        android:textSize="14sp">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#2f80eb"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="75.321"
+                        android:textColor="@color/white"
+                        android:textSize="14sp">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#2f80eb"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="New Longitude: "
+                        android:textColor="@color/white"
+                        android:textSize="14sp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#2f80eb"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="75.321"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        >
+
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2f80eb"
+            android:fontFamily="sans-serif-medium"
+            android:text="NEW CONTAINER INFORMATION"
+            android:textColor="@color/black"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Remarks"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                app:boxStrokeColor="#52f260"
+                app:hintTextColor= "#52f260"
+                app:boxBackgroundColor="@color/white"
+
+                >
+                <EditText
+                    android:id="@+id/dateFormat"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:hint="Write Here"
+                    android:textSize="12dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Container Condition"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:elevation="2dp"
+                android:background="@drawable/custom_spinner"
+                >
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#2f80eb"
+            android:padding="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/emp_custom_linearleft"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/empReg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="65dp"
+                        android:src="@drawable/uploadd"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Take Picture"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:layout_width="110dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_gravity="center"
+                        android:backgroundTint="#2f80eb"
+                        android:fontFamily="sans-serif-medium"
+                        android:minHeight="45dp"
+                        android:minWidth="120dp"
+                        android:text="Capture"
+                        android:textColor="@color/white"
+                        android:textSize="11sp">
+
+                    </Button>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/emp_custom_linearright"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/emp_custominner_linearright"
+                    android:gravity="center"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/worker"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="#FF000000"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Remarks"
+            android:textColor="#555555"
+            android:textSize="12sp">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/division_dropdown_linear"
+
+            >
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                app:boxStrokeColor="#52f260"
+                app:hintTextColor= "#52f260"
+                app:boxBackgroundColor="@color/white"
+
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:gravity="top"
+                    android:hint="Write Here"
+                    android:minLines="5"
+                    android:maxLines="5"
+                    android:textSize="12dp"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dfdfdf"
+            >
+
+        </View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+
+            >
+
+            <Button
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#7e8c8d"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="45dp"
+                android:minWidth="120dp"
+                android:layout_marginRight="5dp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_marginBottom="10dp"
+                android:textSize="10sp">
+            </Button>
+            <Button
+                android:id="@+id/applyLeave"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#2f80eb"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="45dp"
+                android:minWidth="120dp"
+                android:textAllCaps="false"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="10sp">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

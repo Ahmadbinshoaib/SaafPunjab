@@ -225,6 +225,7 @@
 
                         >
                         <ImageView
+                            android:id="@+id/containerTagging"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -282,6 +283,7 @@
 
                         >
                         <ImageView
+                            android:id="@+id/reports"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -289,6 +291,7 @@
                             android:src="@drawable/photos"></ImageView>
 
                         <TextView
+                            android:id="@+id/attendence"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -322,6 +325,7 @@
 
                         >
                         <ImageView
+                            android:id="@+id/singleAt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"

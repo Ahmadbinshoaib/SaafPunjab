@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -21,8 +22,9 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
-    ImageView imageView, empReg, markAtt, leaveform;
+    ImageView imageView, empReg, markAtt, leaveform, containerTagging, reports, singAtt;
     RecyclerView recyclerView;
+    TextView textView;
     ArrayList<MenuStructure> contacts= new ArrayList<>();
 
     @Override
@@ -71,6 +73,43 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(MainActivity.this, LeaveForm.class);
+                startActivity(intent);
+            }
+        });
+
+        containerTagging= findViewById(R.id.containerTagging);
+        containerTagging.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this, ContainerTagging.class);
+                startActivity(intent);
+            }
+        });
+
+
+        reports= findViewById(R.id.reports);
+        reports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this, Reports1.class);
+                startActivity(intent);
+            }
+        });
+
+        textView= findViewById(R.id.attendence);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this, ReportsAttendence.class);
+                startActivity(intent);
+            }
+        });
+
+        singAtt= findViewById(R.id.singleAt);
+        singAtt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(MainActivity.this, SingleAttendence.class);
                 startActivity(intent);
             }
         });

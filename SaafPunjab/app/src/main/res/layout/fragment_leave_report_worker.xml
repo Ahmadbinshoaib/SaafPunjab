@@ -123,19 +123,19 @@
             android:layout_weight="1"
 
             >
+
             <TextView
                 android:id="@+id/status"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="1dp"
-                android:paddingBottom="1dp"
-                android:paddingRight="8dp"
-                android:paddingLeft="8dp"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
                 android:fontFamily="sans-serif-medium"
+                android:paddingLeft="8dp"
+                android:paddingTop="1dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="1dp"
                 android:text="07 Results "
                 android:textColor="@color/white"
-                android:textSize="11sp">
-            </TextView>
+                android:textSize="11sp"></TextView>
 
         </androidx.cardview.widget.CardView>
 
